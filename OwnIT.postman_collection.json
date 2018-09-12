@@ -1,0 +1,170 @@
+{
+	"id": "2c24bc76-8e72-0d36-e11a-5d94eb3b6374",
+	"name": "OwnIT",
+	"description": "",
+	"order": [
+		"568629ba-4ab7-4e39-6e26-34bf300554f8",
+		"3cd598a1-5282-7a32-3b82-1e05d3d614f2",
+		"0f9615c9-9cfa-2b70-8504-3af744edd1b5",
+		"c5c3fa97-5cf0-93af-8868-5b3f42dfbab8",
+		"b64aa491-f2f2-0245-ebba-8a06c5ca999d"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1534965616483,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0f9615c9-9cfa-2b70-8504-3af744edd1b5",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8090/carrier/status/CAR0001",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "2c24bc76-8e72-0d36-e11a-5d94eb3b6374",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8090/carrier/status/CAR0001",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1534965660634,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"name\":\"Damith\",\n\t\"carrierID\":\"CAR0001\",\n\t\"address\":\"Matara\",\n\t\"telephone\":\"0714742094\",\n\t\"status\":1,\n\t\"rating\":10\n\t\n\t\n}"
+		},
+		{
+			"id": "3cd598a1-5282-7a32-3b82-1e05d3d614f2",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8090/carrier/list",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "2c24bc76-8e72-0d36-e11a-5d94eb3b6374",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8090/carrier/list",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1534965654522,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"sellerID\":\"SEL0001\",\n\t\"name\":\"Tharuka\",\n\t\"address\":\"Beliatta Road Tanga\",\n\t\"rating\":10,\n\t\"telephone\":\"098718123\",\n\t\"advertisements\":\"ADS0001,ADS0002\"\n\t\n}"
+		},
+		{
+			"id": "568629ba-4ab7-4e39-6e26-34bf300554f8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8090/advertisement/list",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "2c24bc76-8e72-0d36-e11a-5d94eb3b6374",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8090/advertisement/list",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1534965620212,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"adid\":\"ADD0001\",\n\t\"itemname\":\"Bicycle\",\n\t\"seller\":\"SEL0001\",\n\t\"price\":\"10000\",\n\t\"quantityavailable\":10\n\t\n\t\n}"
+		},
+		{
+			"id": "b64aa491-f2f2-0245-ebba-8a06c5ca999d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8090/customer/address/CUS0002",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1534965681988,
+			"name": "http://localhost:8090/customer/address/CUS0002",
+			"description": "",
+			"collectionId": "2c24bc76-8e72-0d36-e11a-5d94eb3b6374",
+			"responses": [],
+			"rawModeData": "{\n\t\"customerID\" : \"CUS0002\",\n\t\"name\" : \"Hashini Colambage\",\n\t\"address\" : \"06/1, Mahawela Road Godallawela Tangalle\",\n\t\"telephone\" : \"0715850000\",\n\t\"rating\": 10\n\t\n\t\n}"
+		},
+		{
+			"id": "c5c3fa97-5cf0-93af-8868-5b3f42dfbab8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8090/transaction/TRA0001",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1534965679867,
+			"name": "http://localhost:8090/transaction/TRA0001",
+			"description": "",
+			"collectionId": "2c24bc76-8e72-0d36-e11a-5d94eb3b6374",
+			"responses": [],
+			"rawModeData": "{\n\t\"customer\" : \"CUS0002\",\n\t\"carrier\" : \"CAR0001\",\n\t\"seller\" : \"SEL0003\",\n\t\"transactionID\" : \"TRA0001\",\n\t\"active\": 1\n\t\n\t\n}"
+		}
+	]
+}
